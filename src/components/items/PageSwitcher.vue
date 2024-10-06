@@ -61,29 +61,29 @@ const changePage = (component) => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #FDF8E2; /* Kolor tła domyślny */
+  background-color: #FDF8E2;
   border-radius: 10px;
   margin: 1rem 0;
   padding: 1rem;
   width: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  cursor: pointer; /* Kursor wskazujący, że element jest klikalny */
-  transition: background-color 0.3s; /* Dodanie przejścia dla gładkiej zmiany koloru */
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .menu-item:hover {
-  background-color: #F9F6EA; /* Kolor tła na hover */
+  background-color: #F9F6EA;
 }
 
-/* Styl dla aktywnego elementu */
+
 .menu-item.active {
-  background-color: #B7A261; /* Kolor tła dla aktywnego elementu */
-  color: #B7A261; /* Zmiana koloru tekstu dla lepszej widoczności */
+  background-color: #B7A261;
+  color: #B7A261;
 }
 
 .menu-item span {
   margin-top: 0.5rem;
   font-size: 16px;
-  color: #000; /* Domyślny kolor tekstu */
+  color: #000;
 }
 </style>

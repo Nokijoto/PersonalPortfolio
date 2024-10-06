@@ -10,29 +10,29 @@
 <script setup>
 import { ref } from 'vue';
 
-const currentYear = new Date().getFullYear(); // Dynamically get the current year
+const currentYear = new Date().getFullYear();
 </script>
 
 <style scoped>
 .footer {
-  background-color: #B7A261; /* Tło stopki */
-  color: var(--base-light-color); /* Kolor tekstu stopki */
-  padding: 20px; /* Wewnętrzny odstęp */
-  text-align: center; /* Wyśrodkowanie tekstu */
+  background-color: #B7A261;
+  color: var(--base-light-color);
+  padding: 20px;
+  text-align: center;
 }
 
 .footer-content {
-  max-width: 100vw; /* Maksymalna szerokość stopki */
-  margin: auto; /* Wyśrodkowanie stopki */
+  max-width: 100vw;
+  margin: auto;
   height:1rem;
 }
 
 .footer a {
-  color: white; /* Kolor linków */
-  text-decoration: none; /* Brak podkreślenia */
+  color: white;
+  text-decoration: none;
 }
 
 .footer a:hover {
-  text-decoration: underline; /* Podkreślenie linków po najechaniu */
+  text-decoration: underline;
 }
 </style>
