@@ -20,7 +20,7 @@ const menuItems = [
   { label: 'Experience', icon: ExperienceIcon, component: markRaw(Experience) },
   { label: 'Projects', icon: ProjectsIcon, component: markRaw(Projects) },
   { label: 'Skills', icon: SkillsIcon, component: markRaw(Skills) },
-  { label: 'Contact', icon: ContactIcon, component: markRaw(Contact) }
+  // { label: 'Contact', icon: ContactIcon, component: markRaw(Contact) }
 ];
 
 let selectedPage = HomePage;

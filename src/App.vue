@@ -84,7 +84,7 @@ footer {
   border-radius: 10px;
   border: 3px solid #B7A261;
   width: 8vw;
-  height: 40rem;
+  height: 45rem;
   flex: 0 0 100%;
 }
 

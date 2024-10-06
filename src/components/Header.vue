@@ -4,14 +4,14 @@ import PortfolioHeader from './items/HeaderItems/PortfolioHeader.vue'
 </script>
 
 <template>
-  <header class="header">
+  <div class="header">
     <div class="logo">
       <PortfolioHeader />
     </div>
-    <div class="theme-switcher">
-      <ThemeSwitcher />
-    </div>
-  </header>
+<!--    <div class="theme-switcher">-->
+<!--      <ThemeSwitcher />-->
+<!--    </div>-->
+  </div>
 </template>
 
 <style scoped>
@@ -22,7 +22,7 @@ import PortfolioHeader from './items/HeaderItems/PortfolioHeader.vue'
 }
 
 .header {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
