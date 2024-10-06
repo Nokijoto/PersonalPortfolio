@@ -1,0 +1,12 @@
+services:
+  vue-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
