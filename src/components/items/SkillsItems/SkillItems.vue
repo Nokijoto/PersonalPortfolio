@@ -8,7 +8,7 @@ import MariaDbIcon from '../../icons/SkillsIcons/MariaDbIcon.vue';
 import PostgresSqlIcon from '../../icons/SkillsIcons/PostgresSqlIcon.vue';
 import SqlServerIcon from '../../icons/SkillsIcons/SqlServerIcon.vue';
 import LaravelIcon from '../../icons/SkillsIcons/LaravelIcon.vue';
-import PhpIcon from '../../icons/SkillsIcons/PhpIcon.vue';
+import PhpIcon from '../../icons/SkillsIcons/PHPIcon.vue';
 import JsIcon from "@/components/icons/SkillsIcons/JsIcon.vue";
 import TypescriptIcon from "@/components/icons/SkillsIcons/TypescriptIcon.vue";
 import AngularIcon from "@/components/icons/SkillsIcons/AngularIcon.vue";
