@@ -54,7 +54,7 @@ const closeModal = () => {
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
-  background-color: #F9F6EA;
+  background-color: var(--base-item-background-color);
 }
 
 .image-icon {

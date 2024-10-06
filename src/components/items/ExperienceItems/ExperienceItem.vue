@@ -34,10 +34,10 @@
   padding-left: 1rem;
   display: flex;
   align-items: center;
-  border: 2px solid #B7A261;
+  border: 2px solid var(--base-border-color);
   border-radius: 10px;
   max-width: auto;
-  background-color: #ffffff;
+  background-color: var(--base-background-color);
   padding: 1rem;
   text-align: left;
 }
@@ -63,17 +63,17 @@
 }
 .Company {
   font-size: 16px;
-  color: #000;
+  color: var(--base-dark-color);
 }
 
 .Role {
   font-size: 16px;
-  color: #000;
+  color: var(--base-dark-color);
 }
 
 .Duration {
   font-size: 16px;
-    color: #000;
+    color: var(--base-dark-color);
 
 }
 b{

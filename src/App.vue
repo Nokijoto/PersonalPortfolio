@@ -82,7 +82,7 @@ footer {
   margin-right: 2rem;
   background-color: var(--base-light-color);
   border-radius: 10px;
-  border: 3px solid #B7A261;
+  border: 3px solid var(--base-border-color);
   width: 8vw;
   height: 45rem;
   flex: 0 0 100%;

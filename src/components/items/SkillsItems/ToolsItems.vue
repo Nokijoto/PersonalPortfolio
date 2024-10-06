@@ -55,7 +55,7 @@ const toolsItems = [
 }
 
 .tool-icon {
-  border: 2px solid #B7A261;
+  border: 2px solid var(--base-border-color);
   border-radius: 5%;
   padding: 1rem;
   width: auto;
@@ -63,7 +63,7 @@ const toolsItems = [
   align-items: center;
   justify-content: center;
   gap: 10px;
-  box-shadow:  1px 1px 1px #FEF6DD,
+  box-shadow:  1px 1px 1px var(--base-background-color),
   0 0 10px rgba(202, 192, 176, 0.8),
   0 0 20px rgba(189, 184, 160, 0.6);
 

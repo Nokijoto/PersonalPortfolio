@@ -50,7 +50,7 @@ const closeModal = () => {
 }
 
 .modal-content {
-  background-color: white;
+  background-color: var(--base-light-color);
   padding: 20px;
   border-radius: 8px;
   text-align: center;
@@ -68,7 +68,7 @@ const closeModal = () => {
   position: absolute;
   right: 20px;
   top: 20px;
-  color: #333;
+  color: var(--color-six);
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   padding: 5px;

@@ -46,22 +46,22 @@ input,
 textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--base-light-color);
   border-radius: 5px;
   margin-bottom: 10px;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: var(--color-one);
+  color: var(--base-light-color);
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #3e8e41;
+  background-color: var(--color-two);
 }
 
 button:focus {

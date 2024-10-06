@@ -31,7 +31,7 @@ defineProps({
   width: 2rem;
   height: 2rem;
   margin: 1rem;
-  color: #b59b56;
+  color: var(--base-border-color);
   font-size: 24px;
   border-radius: 0.5rem;
   border: 1px solid var(--base-border-color);

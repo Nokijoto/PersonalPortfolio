@@ -51,7 +51,7 @@ const changePage = (component) => {
   padding: 1rem;
   border-radius: 30px;
   width: auto;
-  border: 3px solid #B7A261;
+  border: 3px solid var(--base-border-color);
   background-color: var(--base-light-color);
   scale: 0.8;
 }
@@ -61,7 +61,7 @@ const changePage = (component) => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #FDF8E2;
+  background-color: var(--base-background-color);
   border-radius: 10px;
   margin: 1rem 0;
   padding: 1rem;
@@ -72,7 +72,7 @@ const changePage = (component) => {
 }
 
 .menu-item:hover {
-  background-color: #F9F6EA;
+  background-color: var(--base-border-color);
 }
 
 
@@ -81,6 +81,6 @@ const changePage = (component) => {
 .menu-item span {
   margin-top: 0.5rem;
   font-size: 16px;
-  color: #000;
+  color: var(--base-dark-color);
 }
 </style>

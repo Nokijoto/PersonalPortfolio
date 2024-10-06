@@ -68,7 +68,7 @@ const socialLinks = [
 .contact-info {
   padding: 0.5rem;
   border-radius: 8px;
-  background-color: #F9F6EA;
+  background-color: var(--base-item-background-color);
 }
 
 .info-item {
@@ -76,7 +76,7 @@ const socialLinks = [
   align-items: center;
   margin: 0.5rem;
   padding: 0.5rem;
-  border-bottom: 1px solid #b59b56;
+  border-bottom: 1px solid var(--base-border-color);
 }
 
 .icon {
@@ -88,8 +88,8 @@ const socialLinks = [
 .contact-title {
   margin: 1rem auto;
   border-radius: 5px;
-  border: 1px solid #b59b56;
-  background-color: #f9f1d2;
+  border: 1px solid var(--base-border-color);
+  background-color: var(--base-background-color);
   text-align: center;
   width: fit-content;
   padding: 0.2rem 0.5rem;

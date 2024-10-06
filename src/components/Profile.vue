@@ -45,8 +45,8 @@ const birthdate = import.meta.env.VITE_APP_USER_BIRTHDATE;
 .view-resume {
   margin-top: 1rem;
   padding: 0.5rem 1.5rem;
-  background-color: #E0CE93;
-  color: #403D22;
+  background-color: var(--base-item-background-color);
+  color: var(--color-four);
   border: 0.2rem solid var(--base-border-color);
   border-radius: 0.5rem;
   cursor: pointer;

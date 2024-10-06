@@ -15,7 +15,7 @@ const currentYear = new Date().getFullYear();
 
 <style scoped>
 .footer {
-  background-color: #B7A261;
+  background-color: var(--color-five);
   color: var(--base-light-color);
   padding: 20px;
   text-align: center;
@@ -28,7 +28,7 @@ const currentYear = new Date().getFullYear();
 }
 
 .footer a {
-  color: white;
+  color: var(--base-light-color);
   text-decoration: none;
 }
 

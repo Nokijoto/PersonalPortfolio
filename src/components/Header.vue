@@ -30,7 +30,7 @@ import PortfolioHeader from './items/HeaderItems/PortfolioHeader.vue'
 
 .logo h1 {
   font-family: 'Arial', sans-serif;
-  color: #b59b56;
+  color: var(--color-five);
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
