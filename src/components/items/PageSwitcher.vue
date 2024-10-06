@@ -23,6 +23,7 @@ const menuItems = [
   { label: 'Contact', icon: ContactIcon, component: markRaw(Contact) }
 ];
 
+let selectedPage = HomePage;
 const changePage = (component) => {
   emit('change-page', component);
   selectedPage.value = component;
