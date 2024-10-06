@@ -1,14 +1,11 @@
-# personalportfolio
+# Personal Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+My own implementation of the portfolio website made with Vue 3 and Vite.
 
-## Recommended IDE Setup
+Designed by [Vednidhi930](https://github.com/Vednidhi930)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[Figma Project](https://www.figma.com/community/file/1420802860010155379)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
