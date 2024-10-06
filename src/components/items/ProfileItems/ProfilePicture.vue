@@ -19,10 +19,12 @@ defineProps({
   transform: translate(0, -50%);
 }
 
+img {
+  border: 4px solid var(--base-border-color);
+  border-radius: 7.5%;
+}
 .profile-picture img {
   width: 200px;
   height: 200px;
-  border: 5px solid var(--base-border-color);
-  border-radius: 7.5%;
 }
 </style>

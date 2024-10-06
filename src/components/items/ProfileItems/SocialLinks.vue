@@ -10,7 +10,7 @@ defineProps({
 <template>
   <div class="social-links">
     <a v-for="(link, index) in links" :key="index" :href="link.url" target="_blank">
-      <i :class="link.icon"></i>
+      <font-awesome-icon :icon="link.icon" />
     </a>
   </div>
 </template>

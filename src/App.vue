@@ -39,9 +39,7 @@ const selectPage = (pageComponent) => {
 </template>
 
 <style scoped>
-*{
-  border: 1px solid deeppink;
-}
+
 
 header {
   line-height: 1.5;
@@ -86,7 +84,7 @@ footer {
   border-radius: 10px;
   border: 3px solid #B7A261;
   width: 8vw;
-  height: 35rem;
+  height: 40rem;
   flex: 0 0 100%;
 }
 
@@ -119,6 +117,8 @@ footer {
 
   .column {
     margin: 10px 0;
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>

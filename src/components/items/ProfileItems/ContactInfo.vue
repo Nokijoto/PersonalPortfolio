@@ -28,8 +28,8 @@ defineProps({
   },
 });
 const socialLinks = [
-  { icon: 'fab fa-linkedin', url: import.meta.env.VITE_APP_LINKEDIN_URL },
-  { icon: 'fab fa-github', url: import.meta.env.VITE_APP_GITHUB_URL },
+  { icon: ['fab', 'linkedin'], url: import.meta.env.VITE_APP_LINKEDIN_URL },
+  { icon: ['fab', 'github'], url: import.meta.env.VITE_APP_GITHUB_URL },
 ];
 
 </script>
@@ -66,7 +66,7 @@ const socialLinks = [
 <style scoped>
 
 .contact-info {
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 8px;
   background-color: #F9F6EA;
 }

@@ -1,6 +1,6 @@
 <script setup>
 import ProfilePicture from './items/ProfileItems/ProfilePicture.vue';
-import ContactInfo from './items/ContactInfo.vue';
+import ContactInfo from './items/ProfileItems/ContactInfo.vue';
 import SocialLinks from './items/ProfileItems/SocialLinks.vue';
 
 const imageSrc = import.meta.env.VITE_APP_PROFILE_PICTURE_URL;

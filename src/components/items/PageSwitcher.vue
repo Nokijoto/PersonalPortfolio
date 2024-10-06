@@ -76,10 +76,7 @@ const changePage = (component) => {
 }
 
 
-.menu-item.active {
-  background-color: #B7A261;
-  color: #B7A261;
-}
+
 
 .menu-item span {
   margin-top: 0.5rem;
