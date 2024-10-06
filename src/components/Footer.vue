@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footer-content">
-      <p>&copy; {{ currentYear }} xxx. All Rights Reserved.</p>
+      <p>&copy; {{ currentYear }} Rafał Wątroba. All Rights Reserved.</p>
 <!--      <p>Designed by <a href="https://github.com/Vednidhi930">Vednidhi930</a></p>-->
     </div>
   </footer>

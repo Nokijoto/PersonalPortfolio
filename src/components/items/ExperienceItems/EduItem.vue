@@ -6,13 +6,11 @@
   <div class="education-container">
     <div class="education-card">
       <p class="years">2021 - 2025</p>
-      <h3 class="degree">B.Tech ( IT ) from CSPIT, CHARUSAT</h3>
-      <p class="cgpa">9.18 CGPA till 6th Sem</p>
+      <h3 class="degree">Wyższa Szkoła Informatyki i Zarządzania w Rzeszowie</h3>
     </div>
     <div class="education-card">
       <p class="years">2017 - 2021</p>
-      <h3 class="degree">B.Tech ( IT ) from CSPIT, CHARUSAT</h3>
-      <p class="cgpa">9.18 CGPA till 6th Sem</p>
+      <h3 class="degree">Zespół Szkół Technicznych im. Bohaterów Września w Jaśle</h3>
     </div>
   </div>
 </template>
@@ -47,8 +45,4 @@
   margin: 5px 0;
 }
 
-.cgpa {
-  font-size: 14px;
-  color: #555;
-}
 </style>

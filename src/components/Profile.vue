@@ -25,7 +25,7 @@ const birthdate = import.meta.env.VITE_APP_USER_BIRTHDATE;
         :location="location"
         :birthdate="birthdate"
     />
-    <button class="view-resume">View Resume</button>
+    <a href="@/assets/cv/cv.pdf" download class="view-resume">Download Resume</a>
   </div>
 </template>
 
@@ -51,5 +51,11 @@ const birthdate = import.meta.env.VITE_APP_USER_BIRTHDATE;
   border-radius: 0.5rem;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.view-resume:hover {
+  background-color: var(--base-border-color);
 }
 </style>

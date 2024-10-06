@@ -9,6 +9,10 @@ const props = defineProps({
   project: {
     type: Object,
     required: true
+  },
+  onClose: {
+    type: Function,
+    required: true
   }
 });
 
