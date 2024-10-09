@@ -2,6 +2,7 @@
 import ProfilePicture from './items/ProfileItems/ProfilePicture.vue';
 import ContactInfo from './items/ProfileItems/ContactInfo.vue';
 import SocialLinks from './items/ProfileItems/SocialLinks.vue';
+import CVItem from "@/components/items/ProfileItems/CVItem.vue";
 
 const imageSrc = import.meta.env.VITE_APP_PROFILE_PICTURE_URL;
 const name = import.meta.env.VITE_APP_USER_NAME;
@@ -25,7 +26,7 @@ const birthdate = import.meta.env.VITE_APP_USER_BIRTHDATE;
         :location="location"
         :birthdate="birthdate"
     />
-    <a href="@/assets/cv/cv.pdf" download class="view-resume">Download Resume</a>
+    <CVItem/>
   </div>
 </template>
 
@@ -42,18 +43,7 @@ const birthdate = import.meta.env.VITE_APP_USER_BIRTHDATE;
   scale: 0.9;
 }
 
-.view-resume {
-  margin-top: 1rem;
-  padding: 0.5rem 1.5rem;
-  background-color: var(--base-item-background-color);
-  color: var(--color-four);
-  border: 0.2rem solid var(--base-border-color);
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
-}
+
 
 .view-resume:hover {
   background-color: var(--base-border-color);
